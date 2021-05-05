@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700;800&family=Lobster&display=swap');
+
+body {
+  background-color: #fdf1dc;
+  font-family: 'Karla';
+  color: #121212;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  background-color: #ffffff;
+  padding: 8px 160px;
+  box-shadow: 0px 2px 8px 2px #f0f0f0;
+  display: flex;
+  position: fixed;
+  margin-bottom: 80px;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.main-container {
+  padding: 200px 160px;
+}
+
+.hero {
+  display: flex;
+  margin-bottom: 160px;
+  justify-content: space-between;
+}
+
+.alignment {
+  margin-right: 160px;
+}
+
+h1 {
+  width: 440px;
+  color: #222222;
+  margin-bottom: 80px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 32px;
+  width: 240px;
+}
+
+h3 {
+  color: #444444;
+  font-weight: 400;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: #222222;
+}
+
+.main-btn {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #E07A5F;
+  border-radius: 2px;
+  padding: 16px 56px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1), 0 4px 8px rgba(0,0,0,0.1);;
+}
+
+.main-btn:hover {
+  background-color: #d86f52;
+}
+
+.hero-img {
+  border-radius: 2px;
+  height: 360px;
+}
+
+.icon {
+  float: right;
+  margin: 20px;
+  position: relative;
+}
+
+.icon:hover {
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+
+.card {
+  background: #fff;
+  padding: 80px 80px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1), 0 4px 8px rgba(0,0,0,0.1);;
+  text-align: left;
+  width: 640px;
+  margin: 120px auto;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill-list {
+  margin-bottom: 80px;
+  line-height: 1.8;
+  text-align: left;
+  margin-left: -36px;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+.illustration {
+  height: 200px;
+  width: auto;
+  margin-top: 80px;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    padding: 64px;
+    padding-top: 160px;
+    width: 80%;
+  }
+
+  .alignment {
+    margin-right: 40px;
+  }
+
+  .hero-img {
+    height: 240px;
+  }
+
+  h1 {
+    font-size: 24px;
+    width: 340px;
+  }
+
+  .card {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  .hero-img {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: space-around;
+    justify-content: center;
+  }
+
+  .main-container {
+    padding: 20px;
+    padding-top: 200px;
+    text-align: center;
+  }
+
+  .card {
+    width: 240px;
+    padding: 40px;
+  }
+
+  .illustration {
+    display: none;
+  }
+}
